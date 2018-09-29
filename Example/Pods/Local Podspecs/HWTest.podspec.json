@@ -1,0 +1,22 @@
+{
+  "name": "HWTest",
+  "version": "0.1.0",
+  "summary": "A short description of HWTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HWDW/HWTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HWDW": "946563342.@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/HWDW/HWTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HWTest/Classes/**/*"
+}

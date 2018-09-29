@@ -1,0 +1,16 @@
+PODS:
+  - HWTest (0.1.0)
+
+DEPENDENCIES:
+  - HWTest (from `../`)
+
+EXTERNAL SOURCES:
+  HWTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HWTest: b791f70f30a7fb5f821d72a28bc17c37407d8f9b
+
+PODFILE CHECKSUM: 8b5aa4c8034cdb8e73562c455664c38332c6cb36
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module HWTest {
+  umbrella header "HWTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
