@@ -1,6 +1,6 @@
 {
   "name": "HWTest",
-  "version": "0.1.2",
+  "version": "1.1.2",
   "summary": "A short description of HWTest.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/HWDW/HWTest",
@@ -13,10 +13,54 @@
   },
   "source": {
     "git": "https://github.com/HWDW/HWTest.git",
-    "tag": "0.1.2"
+    "tag": "1.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HWTest/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "category",
+      "source_files": "HWTest/Classes/category/**/*",
+      "public_header_files": "HWTest/Classes/category/**/*.h"
+    },
+    {
+      "name": "APIs",
+      "source_files": "HWTest/Classes/APIs/**/*",
+      "public_header_files": "HWTest/Classes/APIs/**/*.h",
+      "dependencies": {
+        "AFNetworking": [
+
+        ]
+      }
+    },
+    {
+      "name": "configs",
+      "source_files": "HWTest/Classes/configs/**/*",
+      "public_header_files": "HWTest/Classes/configs/**/*.h"
+    },
+    {
+      "name": "reformerKeys",
+      "source_files": "HWTest/Classes/reformerKeys/**/*",
+      "public_header_files": "HWTest/Classes/reformerKeys/**/*.h"
+    },
+    {
+      "name": "tools",
+      "source_files": "HWTest/Classes/tools/**/*",
+      "public_header_files": "HWTest/Classes/tools/**/*.h",
+      "dependencies": {
+        "MBProgressHUD": [
+
+        ],
+        "FMDB": [
+
+        ]
+      }
+    },
+    {
+      "name": "mainView",
+      "source_files": "HWTest/Classes/mainView/**/*",
+      "public_header_files": "HWTest/Classes/mainView/**/*.h"
+    }
+  ]
 }

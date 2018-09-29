@@ -1,15 +1,58 @@
 PODS:
-  - HWTest (0.1.2)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HWTest (1.1.2):
+    - HWTest/APIs (= 1.1.2)
+    - HWTest/category (= 1.1.2)
+    - HWTest/configs (= 1.1.2)
+    - HWTest/mainView (= 1.1.2)
+    - HWTest/reformerKeys (= 1.1.2)
+    - HWTest/tools (= 1.1.2)
+  - HWTest/APIs (1.1.2):
+    - AFNetworking
+  - HWTest/category (1.1.2)
+  - HWTest/configs (1.1.2)
+  - HWTest/mainView (1.1.2)
+  - HWTest/reformerKeys (1.1.2)
+  - HWTest/tools (1.1.2):
+    - FMDB
+    - MBProgressHUD
+  - MBProgressHUD (1.1.0)
 
 DEPENDENCIES:
   - HWTest (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FMDB
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   HWTest:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HWTest: 0c176df150b3f22c881ce1edefcddc3025dc16ba
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HWTest: 72d986190c224d48f7843273d7b812119075ca3c
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
 
 PODFILE CHECKSUM: 8b5aa4c8034cdb8e73562c455664c38332c6cb36
 
