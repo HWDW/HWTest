@@ -31,4 +31,34 @@
     self.font = [UIFont fontWithName:fontName size:fontSize];
 }
 
+- (UILabel *(^)(NSString*))sText{
+    return ^(NSString *s_text){
+        self.text = s_text;
+        return self;
+    };
+}
+- (UILabel *(^)(UIFont*))sFont{
+    return ^(UIFont *s_font){
+        self.font = s_font;
+        return self;
+    };
+}
+- (UILabel *(^)(UIColor *))sTextColor{
+    return ^(UIColor *s_textColor){
+        self.textColor = s_textColor;
+        return self;
+    };
+}
+- (UILabel *(^)(UIColor *))sBgColor{
+    return ^(UIColor *s_bgColor){
+        self.backgroundColor = s_bgColor;
+        return self;
+    };
+}
+- (UILabel *(^)(NSTextAlignment ))sTextAlignment{
+    return ^(NSTextAlignment s_textAlignment){
+        self.textAlignment = s_textAlignment;
+        return self;
+    };
+}
 @end

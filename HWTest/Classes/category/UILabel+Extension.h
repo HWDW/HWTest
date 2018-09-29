@@ -14,5 +14,10 @@
 - (void)textColor:(UIColor *)textColor textAlignment:(NSTextAlignment)textAlignment fontSize:(CGFloat)fontSize;
 - (void)text:(NSString *)text textColor:(UIColor *)textColor fontSize:(CGFloat)fontSize;
 - (void)text:(NSString *)text textColor:(UIColor *)textColor fontSize:(CGFloat)fontSize fontName:(NSString *)fontName;
+@property (nonatomic ,copy)UILabel *(^sText)(NSString * s_text);
+@property (nonatomic ,copy)UILabel *(^sFont)(UIFont * s_font);
+@property (nonatomic ,copy)UILabel *(^sTextColor)(UIColor * s_textColor);
+@property (nonatomic ,copy)UILabel *(^sBgColor)(UIColor * s_bgColor);
+@property (nonatomic ,copy)UILabel *(^sTextAlignment)(NSTextAlignment  s_textAlignment);
 
 @end

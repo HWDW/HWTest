@@ -1,5 +1,5 @@
 PODS:
-  - HWTest (0.1.0)
+  - HWTest (0.1.2)
 
 DEPENDENCIES:
   - HWTest (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HWTest: b791f70f30a7fb5f821d72a28bc17c37407d8f9b
+  HWTest: 0c176df150b3f22c881ce1edefcddc3025dc16ba
 
 PODFILE CHECKSUM: 8b5aa4c8034cdb8e73562c455664c38332c6cb36
 
